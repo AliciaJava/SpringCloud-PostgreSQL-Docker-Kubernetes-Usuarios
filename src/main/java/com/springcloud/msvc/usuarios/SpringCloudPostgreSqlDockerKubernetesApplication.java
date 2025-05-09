@@ -1,0 +1,13 @@
+package com.springcloud.msvc.usuarios;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringCloudPostgreSqlDockerKubernetesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCloudPostgreSqlDockerKubernetesApplication.class, args);
+	}
+
+}
